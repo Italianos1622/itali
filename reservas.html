@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - La Forchetta d'Oro</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./Reservas.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">La Forchetta d'Oro</div>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./menu.html">Menú</a></li>
+                <li><a href="./reservas.html">Reservas</a></li>
+                <li><a href="./contactos.html">Contacto</a></li>
+            </ul>
+    </nav>
+
+    <section class="reservas">
+        <h2>Haz tu Reserva</h2>
+        <p>Reserva tu mesa con antelación y disfruta de una experiencia gastronómica única.</p>
+        
+        <form class="formulario-reserva">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="personas">Número de Personas:</label>
+            <select id="personas" name="personas" required>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5">5 personas</option>
+                <option value="6">6 personas</option>
+                <option value="7">7 personas</option>
+                <option value="8+">8 o más</option>
+            </select>
+
+            <label for="mensaje">Mensaje (opcional):</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <button type="submit">Reservar Ahora</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>📍 Dirección: Calle Italia 123, Bogota</p>
+                <p>📞 Teléfono: +57 123 456 789</p>
+                <p>✉️ Email: <a href="info@gmail.forchettadoro.com"> info@gmail.forchettadoro.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/?locale=es_LA"><img src="imganes/Logo_de_Facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/"><img src="imganes/Instagram_logo_2022.svg.png" alt="Instagram"></a>
+                    <a href="https://x.com/?lang=es"><img src="./imganes/twitter_x-logo-freelogovectors.net_.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Horario</h3>
+                <p>🕒 Lunes a Viernes: 12:00 - 23:00</p>
+                <p>🕒 Sábados y Domingos: 13:00 - 00:00</
+            </div>
+</body>
+</html>
