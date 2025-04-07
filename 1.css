@@ -47,10 +47,15 @@
     color: #444;
     line-height: 1.6;
 }
-img {
+.img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+.img {
+  width: 100%;
+  max-width: 500px; /* o el tamaño que desees como máximo */
+  margin: auto;
 }
 .info-image img {
     width: 450px;
