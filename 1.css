@@ -47,7 +47,11 @@
     color: #444;
     line-height: 1.6;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .info-image img {
     width: 450px;
     border-radius: 10px;
